@@ -1,6 +1,6 @@
 import express from 'express';
 const router = express.Router();
-import Feedback from '../models/FeedBack.js';
+import Feedback from '../models/Feedback.js';
 
 // post 
 router.post('/', async (req, res) => {
